@@ -1,0 +1,75 @@
+Chapter 1
+
+1. A computer is an electronic device that stores and processes data.
+2. A computer includes both hardware and software.
+3. Hardware is the physical aspect of the computer that can be touched.
+4. Computer programs, known as software, are the invisible instructions that control the hardware and make it perform tasks.
+5. Computer programming is the writing of instructions (i.e. code) for computers to perform.
+6. The central processing unit (CPU) is a computer's brain. It retrieves instructions from the memory and executes them.
+7. Computers use zeros and ones because digital devices have two stable states, referred to by convention as zero and one. 
+8. A bit is a binary digit 0 or 1.
+9. A byte is a sequence of 8 bits.
+10. A kilobyte is about 1000 bytes, a megabyte about 1 million bytes, a gigabyte about 1 billion bytes, and a terabyte about 1000 gigabytes.
+11. Memory stores data and program instructions for the CPU to execute.
+12. A memory unit is an ordered sequence of bytes.
+13. Memory is volatile, because information is lost when the power is turned off.
+14. Programs and data are permanently stored on storage devices and are moved to memory when the computer actually uses them.
+15. The machine language is a set of primitive instructions built into every computer.
+16. Assembly language is a low-level programming language in which a mnemonic is used to represent each machine-languge instruction.
+17. High-level languages are English-like and easy to learn and program.
+18. A program written in a high-level language is called a source program.
+19. A compiler is a software program that translates the source program into a machine-language program.
+20. The operating system (OS) is a program that manages and controls a computer's activities.
+21. Java is platform independent, meaning that you can write a program once and run it on any computer.
+22. Java can be embedded in HTML pages and downloaded by Web browsers to bring live animation and interaction to Web clients.
+23. The Java source file must match the public class name in the program. Java source code files must end with .java extension.
+24. Every class is compiled into a separate bytecode file that has the same name as the class and ends with the .class extension.
+25. To compile a Java source-code file from the command line, use javac command.
+26. To run a Java class file from the command line, use the java command.
+27. Every Java program is a set of class definitions. The keyword class introduces a class definition. The contents of the class are included in a block.
+28. A block begins with an opening brace ({) and ends with a closing brace (}).
+29. Methods are contained in a class. To run a Java program, the program must have a main method. The main method is the entry point where the program starts when it is executed.
+30. Every statement in Java ends with a semicolon (;), known as the statement terminator.
+31. Reserved words, or keywords, have a specific meaning to the compiler and cannot be used for other purposes in the program.
+32. In Java, comments are preceded by two slashes (//) on a line, called a line comment, or enclosed between /* and */ on one or several lines, called a block comment or paragraph comment. Comments are ignored by the compiler.
+33. Java source programs are case sensitive.
+34. Programming errors can be categorized into three types: syntax errors, runtime errors, and logic errors. Errors reported by the compiler are called syntax errors or compile errors. Runtime errors are errors that cause a program to terminate abnormally. Logic errors occur when a program does not perform the way it was intended to.
+
+Chapter 2
+
+1. Identifiers are names for naming elements such as variables, constants, methods, classes, packages in a program.
+2. An identifier is a sequence of characters that consists of letters, digits, underscores (_), a dollar sign ($). An identifier must start with a letter or an underscore. It cannot start with a digit. An identifier cannot be a reserved word. An identifier can be of any length.
+3. Variables are used to store data in a program. To declare a variable is to tell the compiler what type of data a variable can hold.
+4. There are two types of import statements: specific import and wildcard import. The specific import specifies a single class in the import statement; the wildcard import imports all the classes in a package.
+5. In Java, the equal sign (=) is used as the assignment operator.
+6. A variable declared in a method must be assigned a value before it can be used.
+7. A named constant (or simply a constant) repreent permanent data that never changes.
+8. A named constant is declared by using the keyword final.
+9. Java provides four integer types (byte, short, int, and long) that represent integers of four different sizes.
+10. Java provides two floating-point types (float and double) that represent floating-point numbers of two different precisions.
+11. Java provides operators that perform numeric operations: + (addition), - (substraction), * (multiplication), / (division), and % (remainder).
+12. Integer arithmetic (/) yield an integer result.
+13. The numeric operators in a Java expression are applied the same way as in an artihmetic expression.
+14. Java provides the augmented operators += (addition assignment), -= (substraction assignment), *= (multiplication assignment), /= (division assignment) and %= (remainder assignment).
+15. The increment operator (++) and decrement operator (--) increment or decrement a variable by 1.
+16. When evaluating an expression with values of mixed types, Java automatically converts the operands to appropriate types.
+17. You can explicitly convert a value from one type to another using the (type)value notation.
+18. Casting a variable of a type with a small range to a variable of a type with a larger range is known as widening of a type.
+19. Casting a variable of a type with a large range to a variable of a type with a smaller range is known as narrowing of a type.
+20. Widening a type can be performed automatically without explicit casting. Narrowing a type must be performed explicitly.
+21. In computer science, midnight of January 1, 1970, is known as the UNIX epoch.
+
+Chapter 3
+
+1. A boolean type varibale can store true or false value.
+2. The relational operators (<, <=, ==, !=, >, >=) yield a Boolean value.
+3. Selection statements are used for programming with alternative courses of action. There are several types of selection statements: one-way if statements, two-way if-else statements, nested if statements, multi-way if-else statements, switch statements and conditional expressions.
+4. The various if statements all make control decisions based on a Boolean expression. Based on the true or false evaluation of the expression, these statements take one of two possible courses.
+5. The Boolean operators &&, ||, !, and ^ operate with Boolean values and variables.
+6. The Boolean operators p1 && p2, Java first evaluates p1 and then evaluates p2 if p1 is true; if p1 is false, it does not evaluate p2. When evaluating p1 || p2, Java first evaluates p1 and then evaluates p2 if p1 is false; if p1 is true, it does not evaluate p2. Therefore, && is referred to as the conditional or short-circuit AND operator, and || is referred to as the conditional or short-circuit OR operator.
+7. The switch statement makes control decisions based on a switch expression of type char, byte, short, int, or String.
+8. The keyword break is optional in a switch statement, but it is normally used at the end of each case in order to skip the remainder of the switch statement. If the break statement is not present, the next case statement will be executed.
+9. The operators in expressions are evaluated in the order determined by the rules of parentheses, operator precedence, and operator associativity.
+10. Parentheses can be used to force the order of evaluation to occur in any sequence.
+11. Operators with higher precedence are evaluated earlier. For operators of the same precedence, their associativity determines the order of evaluation.
+12. All binary operators except assignment operators are left-associative; assignment operators are right associative.
